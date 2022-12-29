@@ -88,3 +88,10 @@ h1
     display: none;
     top: 40px;
 }
+.cent
+{
+    position: absolute;
+    top: 97%;
+    left: 30%;
+    white-space: nowrap;
+}
