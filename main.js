@@ -18,13 +18,13 @@ document.getElementById("btn").onclick = function myclick() {
     bmi = bmi.toFixed(1);
   
     if (bmi <= 18.4) {
-      measure = "Your BMI is " + bmi + " which means " + "you are Underweight";
+      measure = "Your BMI is " + bmi + "     ||     " + "Category: " + "Underweight";
     } else if (bmi >= 18.5 && bmi <= 24.9) {
-      measure = "Your BMI is " + bmi + " which means " + "You are Normal";
+      measure = "Your BMI is " + bmi + "     ||     " + "Category: " + "Normal";
     } else if (bmi >= 25 && bmi <= 29.9) {
-      measure = "Your BMI is " + bmi + " which means " + "You are Overweight";
+      measure = "Your BMI is " + bmi + "     ||     " + "Category: " + "Overweight";
     } else if (bmi >= 30) {
-      measure = "Your BMI is " + bmi + " which means " + "You are Obese";
+      measure = "Your BMI is " + bmi + "     ||     " + "Category: " + "Obese";
     }
     
   
