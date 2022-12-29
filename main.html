@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>BMI CALCULATOR</h1>
+    <div class="container1">
+        <div class="wtcont" id = "weit">
+            <input class="weight" type="number" name="weight" id="wt" min="0" max="500" oninput="calculate()">
+            <p class="wtext"> Weight (in kg) </p>
+        </div>
+        <div class="htcont" id = "heit">
+            <input class = "height" type="number" name="height" id="ht" min="0" max="300" oninput="calculate()"> 
+            <p class="htext"> Height (in cm) </p>
+        </div>
+        <button class="btn" id = "btn" onclick="myclick()" >Calculate</button>
+        <p id="result" class="result">Please do not leave any blank field. </p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
